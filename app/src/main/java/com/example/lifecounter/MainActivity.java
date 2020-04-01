@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // grab handles for relative layouts 1 and 2
-        layoutView1 = (RelativeLayout) findViewById(R.id.layoutView1ID);
-        getLayoutView2 = (RelativeLayout) findViewById(R.id.layoutView2ID);
+        //layoutView1 = (RelativeLayout) findViewById(R.id.layoutView1ID);
+        //getLayoutView2 = (RelativeLayout) findViewById(R.id.layoutView2ID);
 
 
 
