@@ -11,13 +11,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    //private LinearLayout linearLayoutView1;
-    //private LinearLayout linearLayoutView2;
-    private LinearLayout linearLayoutView3;
     private TextView lifeCountTextView3;
     public Button increaseLifeCountButton3;
     public Button decreaseLifeCountButton3;
-    //private LinearLayout linearLayoutView4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         decreaseLifeCountButton3 = (Button) findViewById(R.id.decreaseLifeCountButtonView3ID);
 
         lifeCountTextView3.setText("40");
+        // TODO: Replace onClick() with onTouch event to allow user to increase life total in larger increments
         increaseLifeCountButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
