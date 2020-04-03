@@ -11,21 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
-        android:background="@android:color/darker_gray">
+        tools:layout_editor_absoluteY="1dp">
         <androidx.cardview.widget.CardView
             android:layout_rowWeight="1"
             android:layout_columnWeight="1">
             <LinearLayout
                 android:id="@+id/linearLayoutView1ID"
-                android:background="@color/colorPrimary"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:layout_margin="5dp"
                 android:orientation="vertical"
                 android:layout_gravity="center_horizontal|center_vertical">
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/lifeCountView1ID"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
@@ -39,7 +37,6 @@
             android:layout_columnWeight="1">
             <LinearLayout
                 android:id="@+id/linearLayoutView2ID"
-                android:background="@android:color/background_dark"
                 android:layout_height="match_parent"
                 android:layout_width="match_parent"
                 android:layout_margin="5dp"
@@ -55,10 +52,12 @@
                     android:text="@string/textview" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
+        <!--row 1 col 1-->
+
         <androidx.cardview.widget.CardView
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:cardBackgroundColor="@color/colorPrimary"
             app:cardElevation="18dp">
             <LinearLayout
                 android:id="@+id/linearLayoutView3ID"
@@ -68,22 +67,26 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical">
                 <TextView
-                    android:id="@+id/lifeCountViewID3"
+                    android:id="@+id/lifeCountView3ID"
                     android:layout_width="match_parent"
                     android:layout_height="32dp"
                     android:layout_gravity="center_horizontal"
                     android:text="TextView"
                     android:textAlignment="center" />
+
                 <Button
-                    android:id="@+id/increaseLifeCountButtonViewID3"
+                    android:id="@+id/increaseLifeCountButtonView3ID"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.Button"
                     android:layout_gravity="center"
                     android:text="+" />
+
                 <Button
-                    android:id="@+id/decreaseLifeCountButtonViewID3"
+                    android:id="@+id/decreaseLifeCountButtonView3ID"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/Widget.MaterialComponents.Button"
                     android:layout_gravity="center"
                     android:text="-" />
             </LinearLayout>
@@ -98,7 +101,6 @@
             android:layout_row="0"
             android:layout_column="3"
             android:layout_gravity="center_horizontal|center_vertical"
-            android:background="@android:color/background_dark"
             android:padding="5px">
         <TextView
             android:id="@+id/textView5"
