@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <!-- TODO: flip grid[0][0] and grid[1][1] 180 degrees -->
+    <!-- TODO: add reusable layout file <include layout> -->
+    <!-- TODO: add poison counter -->
     <GridLayout
         android:columnCount="2"
         android:rowCount="2"
