@@ -156,6 +156,29 @@
                     style="@style/Widget.MaterialComponents.Button"/>
 
         </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearLayoutView3BttonID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal|center_vertical"
+                style="@style/Widget.AppCompat.Toolbar">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/poison_counter">
+                </TextView>
+                <SeekBar
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"></SeekBar>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/skullLine"/>
+
+            </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <!--row 1 col 1-->

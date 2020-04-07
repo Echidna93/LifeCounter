@@ -1,2 +1,2 @@
 rootProject.name='LifeCounter'
-include ':app'
+include ':app', ':testing:java:com:google:android:material:testapp:animation', ':testing:java:com:google:android:material:testapp:base', ':testing:java:com:google:android:material:testapp:theme', ':demos:java:io:material:demo:shrine:filters', ':testing:java:com:google:android:material:testapp', ':lib', ':demos:java:io:material:demo:shrine:products', ':demos:java:io:material:demo:shrine', ':testing:java:com:google:android:material:testapp:custom', ':demos:java:io:material:demo:shrine:theme', ':catalog'
